@@ -23,7 +23,7 @@ Para lidar com o grande volume de dados (aprox. 1 milhão de vértices por estad
 ## 🧪 Notebook de Análise: `power_law.ipynb`
 Após a geração dos arquivos pelo Java, os dados são processados em um ambiente Google Colab para análise estatística e visualização. O script realiza o download automático dos artefatos armazenados no presente repositótio do git: https://github.com/talesrios/Arquivos_DOT.git .
 
-O projeto inclui o notebook **`power_law.ipynb`** (localizado na pasta `Grafos_01/`), que automatiza a análise estatística e visualização dos dados processados pelo Java. As principais funcionalidades implementadas no Google Colab são:
+O projeto inclui o notebook **`power_law.ipynb`** que pode ser executado através do link: https://colab.research.google.com/drive/1ANVs0YJnJ_ks7N28Nj2ARYxC-lqazSoB?usp=sharing . De forma que automatiza a análise estatística e visualização dos dados processados pelo Java. As principais funcionalidades implementadas no Google Colab são:
 
 ### 1. Visualização de Grafos (Amostragem de 10k nós)
 Devido à densidade das malhas rodoviárias, o notebook renderiza e exibe os arquivos PDF gerados para subconjuntos de **10.000 nós**. Isso permite a inspeção visual da topologia local sem comprometer o desempenho do ambiente.
